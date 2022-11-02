@@ -1,0 +1,2 @@
+class TraffisProject < ApplicationRecord
+end

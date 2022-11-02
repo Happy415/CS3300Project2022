@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @traffis_project %>
+
+<div>
+  <%= link_to "Edit this traffis project", edit_traffis_project_path(@traffis_project) %> |
+  <%= link_to "Back to traffis projects", traffis_projects_path %>
+
+  <%= button_to "Destroy this traffis project", @traffis_project, method: :delete %>
+</div>
